@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: block;
+  font-family: "Red Hat Display", sans-serif;
+  background-color: #e0e8ff;
+  align-items: center;
+  margin: 0;
+}
+.container_card {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  max-width: 350px;
+  margin: 10rem auto;
+  border-radius: 15px;
+  overflow: hidden;
+  background-color: white;
+}
+.order {
+  display: flex;
+  max-width: 350px;
+}
+h2 {
+  display: block;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #1f2f56;
+  font-size: 1.5em;
+}
+p {
+  text-align: center;
+}
+.row {
+  background: white;
+  display: flex;
+  padding: 0.8em;
+  margin: 1px;
+}
+.col {
+  background-color: #f5f7ff;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em;
+}
+span {
+  text-align: center;
+  line-height: 1.8em;
+  color: #969696;
+  font-weight: 400;
+}
+.payment {
+  width: 90%;
+  text-align: center;
+}
+button {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  text-align: center;
+  width: 90%;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0px 16px 10px rgba(56, 41, 224, 0.199);
+}
+button:hover {
+  background-color: hsl(223, 47%, 23%);
+  transition: 0.1s;
+}
+.cancel_order {
+  text-align: center;
+  width: 90%;
+}
+.cancel_order a {
+  text-decoration: none;
+  display: block;
+  padding: 16px;
+  margin: 16px 0px;
+}
+.cancel_order a:hover {
+  color: hsl(224, 23%, 55%);
+}
+/* media */
+@media (min-width: 1440px) {
+  body {
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-size: 100% 56%;
+    background-position: top;
+  }
+}
+@media (min-width: 375px) {
+  body {
+    background-image: url(./images/pattern-background-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    background-position: top;
+    background-size: 100% 56%;
+  }
+}
