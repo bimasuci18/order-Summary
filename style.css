@@ -74,11 +74,11 @@ button:hover {
   background-color: hsl(223, 47%, 23%);
   transition: 0.1s;
 }
-.cancel_order {
+.footer {
   text-align: center;
   width: 90%;
 }
-.cancel_order a {
+.footer a {
   text-decoration: none;
   display: block;
   padding: 16px;
