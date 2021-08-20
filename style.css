@@ -13,6 +13,7 @@ body {
   background-color: #e0e8ff;
   align-items: center;
   margin: 0;
+  overflow: hidden;
 }
 .container_card {
   display: flex;
@@ -82,7 +83,7 @@ button:hover {
   text-decoration: none;
   display: block;
   padding: 16px;
-  margin: 16px 0px;
+  margin: 5px 0px;
 }
 .cancel_order a:hover {
   color: hsl(224, 23%, 55%);
