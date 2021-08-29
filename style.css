@@ -96,6 +96,16 @@ button:hover {
 .cancel_order a:hover {
   color: hsl(224, 23%, 55%);
 }
+.attributes {
+  text-align: center;
+}
+.attributes a {
+  color: inherit;
+  text-decoration: none;
+}
+.attributes a:hover {
+  color: magenta;
+}
 /* media */
 @media (min-width: 1440px) {
   body {
